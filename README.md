@@ -1,5 +1,5 @@
 # Whitelist
-This script makes a fetch to a .json file (This can just be one that you have uploaded to Github and got the raw file url) and checks the current hostname of the site to the urls in the  .json file and if the url matches one in the json file, then does nothing, but if it doesn't match the page is redirected to an about:blank. This is usefull for html games and websites to stop people **ctrl-c** **ctrl-v** ing your work.
+This script makes a fetch to a .json file (This can just be one that you have uploaded to Github and got the raw file url) and checks the current hostname of the site to the urls in the  .json file and if the url matches one in the json file, then does nothing, but if it doesn't match the page is redirected to an about:blank. This is usefull for html games and websites to stop people **ctrl-c** **ctrl-v** ing your work. **Do whatever you want with my code but please don't claim it as your own and if you do use it give me a star!**
 
 ---
 ## Example .json file
