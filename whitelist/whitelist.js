@@ -4,7 +4,8 @@ async function whitelist() {
         //fetch json file
         //format of json should be like so:
         //["whitelisteddomain.com", "anotheralloweddomain.co.uk", "anotherdomain.tk", "whitelisteddomain.org"]
-        let api = await fetch('https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPOSITORY/main/YOUR-FILE.json');
+        let url = 'your-raw-file.here'
+        let api = await fetch(url);
         // json stringify
         let whitelist = await api.json();
         //get current domain
